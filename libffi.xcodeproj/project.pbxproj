@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D16E53AD19293AB30070CBC6 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA713E187F1D8600A76262 /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53AE19293AB30070CBC6 /* ffi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA713F187F1D8600A76262 /* ffi_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53AF19293AB30070CBC6 /* fficonfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7140187F1D8600A76262 /* fficonfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B019293AB30070CBC6 /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7141187F1D8600A76262 /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B119293ABD0070CBC6 /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA715E187F1D9B00A76262 /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B219293ABD0070CBC6 /* ffi_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA715F187F1D9B00A76262 /* ffi_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B319293ABD0070CBC6 /* ffi_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7160187F1D9B00A76262 /* ffi_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B419293ABD0070CBC6 /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7161187F1D9B00A76262 /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B519293ABD0070CBC6 /* fficonfig_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7162187F1D9B00A76262 /* fficonfig_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B619293ABD0070CBC6 /* fficonfig_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7163187F1D9B00A76262 /* fficonfig_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B719293ABD0070CBC6 /* fficonfig_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7164187F1D9B00A76262 /* fficonfig_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B819293ABE0070CBC6 /* fficonfig_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7165187F1D9B00A76262 /* fficonfig_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53B919293ABE0070CBC6 /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7166187F1D9B00A76262 /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53BA19293ABE0070CBC6 /* ffitarget_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7167187F1D9B00A76262 /* ffitarget_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53BB19293ABE0070CBC6 /* ffitarget_i386.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7168187F1D9B00A76262 /* ffitarget_i386.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D16E53BC19293ABE0070CBC6 /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7169187F1D9B00A76262 /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFA714A187F1D8600A76262 /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA713E187F1D8600A76262 /* ffi.h */; };
 		DBFA714B187F1D8600A76262 /* ffi_common.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA713F187F1D8600A76262 /* ffi_common.h */; };
 		DBFA714C187F1D8600A76262 /* fficonfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA7140187F1D8600A76262 /* fficonfig.h */; };
@@ -40,19 +56,23 @@
 		DBFA7197187F1DA100A76262 /* ffi_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = DBFA718D187F1DA100A76262 /* ffi_i386.c */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		DB13B1641849DF1E0010F42D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		D16E53BF19293BAB0070CBC6 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D16E53C119293BAB0070CBC6 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D16E53C219293BAB0070CBC6 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
+		D16E53C319293BAB0070CBC6 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D16E53C419293BAB0070CBC6 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		D16E53C619293BAB0070CBC6 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		D16E53C719293BAB0070CBC6 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
+		D16E53C919293BAB0070CBC6 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		D16E53CA19293BAB0070CBC6 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
+		D16E53CB19293BAB0070CBC6 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D16E53CD19293BAB0070CBC6 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		D16E53CE19293BAB0070CBC6 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
+		D16E53CF19293BAB0070CBC6 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		D16E53D019293BAB0070CBC6 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		D16E53D119293BAB0070CBC6 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D16E53D219293BAB0070CBC6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DB13B1661849DF1E0010F42D /* libffi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libffi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB13B1911849DF510010F42D /* ffi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ffi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFA713E187F1D8600A76262 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
@@ -98,9 +118,74 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		D16E53BD19293BAB0070CBC6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53BE19293BAB0070CBC6 /* Base */,
+				D16E53C819293BAB0070CBC6 /* iOS */,
+				D16E53CC19293BAB0070CBC6 /* Mac OS X */,
+				D16E53D219293BAB0070CBC6 /* README.md */,
+			);
+			name = Configuration;
+			path = External/xcconfigs;
+			sourceTree = "<group>";
+		};
+		D16E53BE19293BAB0070CBC6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53BF19293BAB0070CBC6 /* Common.xcconfig */,
+				D16E53C019293BAB0070CBC6 /* Configurations */,
+				D16E53C519293BAB0070CBC6 /* Targets */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D16E53C019293BAB0070CBC6 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53C119293BAB0070CBC6 /* Debug.xcconfig */,
+				D16E53C219293BAB0070CBC6 /* Profile.xcconfig */,
+				D16E53C319293BAB0070CBC6 /* Release.xcconfig */,
+				D16E53C419293BAB0070CBC6 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		D16E53C519293BAB0070CBC6 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53C619293BAB0070CBC6 /* Application.xcconfig */,
+				D16E53C719293BAB0070CBC6 /* StaticLibrary.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		D16E53C819293BAB0070CBC6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53C919293BAB0070CBC6 /* iOS-Application.xcconfig */,
+				D16E53CA19293BAB0070CBC6 /* iOS-Base.xcconfig */,
+				D16E53CB19293BAB0070CBC6 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D16E53CC19293BAB0070CBC6 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D16E53CD19293BAB0070CBC6 /* Mac-Application.xcconfig */,
+				D16E53CE19293BAB0070CBC6 /* Mac-Base.xcconfig */,
+				D16E53CF19293BAB0070CBC6 /* Mac-DynamicLibrary.xcconfig */,
+				D16E53D019293BAB0070CBC6 /* Mac-Framework.xcconfig */,
+				D16E53D119293BAB0070CBC6 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
 		DB13B15B1849DEB70010F42D = {
 			isa = PBXGroup;
 			children = (
+				D16E53BD19293BAB0070CBC6 /* Configuration */,
 				DBFA713C187F1D8600A76262 /* darwin_common */,
 				DBFA715C187F1D9B00A76262 /* darwin_ios */,
 				DBFA7180187F1DA100A76262 /* darwin_osx */,
@@ -123,7 +208,7 @@
 				DBFA713D187F1D8600A76262 /* include */,
 				DBFA7142187F1D8600A76262 /* src */,
 			);
-			path = "darwin_common";
+			path = darwin_common;
 			sourceTree = "<group>";
 		};
 		DBFA713D187F1D8600A76262 /* include */ = {
@@ -155,7 +240,7 @@
 				DBFA715D187F1D9B00A76262 /* include */,
 				DBFA716A187F1D9B00A76262 /* src */,
 			);
-			path = "darwin_ios";
+			path = darwin_ios;
 			sourceTree = "<group>";
 		};
 		DBFA715D187F1D9B00A76262 /* include */ = {
@@ -223,7 +308,7 @@
 				DBFA7181187F1DA100A76262 /* include */,
 				DBFA7188187F1DA100A76262 /* src */,
 			);
-			path = "darwin_osx";
+			path = darwin_osx;
 			sourceTree = "<group>";
 		};
 		DBFA7181187F1DA100A76262 /* include */ = {
@@ -261,6 +346,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D16E53AC19293AA10070CBC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16E53AD19293AB30070CBC6 /* ffi.h in Headers */,
+				D16E53B119293ABD0070CBC6 /* ffi_arm64.h in Headers */,
+				D16E53B219293ABD0070CBC6 /* ffi_armv7.h in Headers */,
+				D16E53B319293ABD0070CBC6 /* ffi_i386.h in Headers */,
+				D16E53B419293ABD0070CBC6 /* ffi_x86_64.h in Headers */,
+				D16E53B519293ABD0070CBC6 /* fficonfig_arm64.h in Headers */,
+				D16E53B619293ABD0070CBC6 /* fficonfig_armv7.h in Headers */,
+				D16E53B719293ABD0070CBC6 /* fficonfig_i386.h in Headers */,
+				D16E53B819293ABE0070CBC6 /* fficonfig_x86_64.h in Headers */,
+				D16E53B919293ABE0070CBC6 /* ffitarget_arm64.h in Headers */,
+				D16E53BA19293ABE0070CBC6 /* ffitarget_armv7.h in Headers */,
+				D16E53BB19293ABE0070CBC6 /* ffitarget_i386.h in Headers */,
+				D16E53BC19293ABE0070CBC6 /* ffitarget_x86_64.h in Headers */,
+				D16E53AE19293AB30070CBC6 /* ffi_common.h in Headers */,
+				D16E53AF19293AB30070CBC6 /* fficonfig.h in Headers */,
+				D16E53B019293AB30070CBC6 /* ffitarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB13B18F1849DF510010F42D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,9 +393,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB13B18B1849DF1E0010F42D /* Build configuration list for PBXNativeTarget "libffi-iOS" */;
 			buildPhases = (
-				DB13B3051849E01C0010F42D /* ShellScript */,
 				DB13B1621849DF1E0010F42D /* Sources */,
-				DB13B1641849DF1E0010F42D /* CopyFiles */,
+				D16E53AC19293AA10070CBC6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -342,19 +449,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DB13B3051849E01C0010F42D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/bin/python generate-darwin-source-and-headers.py --only-ios";
-		};
 		DB13B3061849E0490010F42D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,10 +505,12 @@
 /* Begin XCBuildConfiguration section */
 		DB13B1601849DEB70010F42D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53C119293BAB0070CBC6 /* Debug.xcconfig */;
 			buildSettings = {
+				GCC_WARN_SIGN_COMPARE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"darwin_common/include",
+					darwin_common/include,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 			};
@@ -422,103 +518,60 @@
 		};
 		DB13B1611849DEB70010F42D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53C319293BAB0070CBC6 /* Release.xcconfig */;
 			buildSettings = {
+				GCC_WARN_SIGN_COMPARE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"darwin_common/include",
+					darwin_common/include,
 				);
 			};
 			name = Release;
 		};
 		DB13B1871849DF1E0010F42D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53CB19293BAB0070CBC6 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/ffi.dst;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"darwin_ios/include",
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ffi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		DB13B1881849DF1E0010F42D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53CB19293BAB0070CBC6 /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/ffi.dst;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"darwin_ios/include",
-				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 7.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ffi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		DB13B1B11849DF520010F42D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53D119293BAB0070CBC6 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -552,7 +605,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"darwin_osx/include",
+					darwin_osx/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
@@ -564,6 +617,7 @@
 		};
 		DB13B1B21849DF520010F42D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16E53D119293BAB0070CBC6 /* Mac-StaticLibrary.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -592,7 +646,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"darwin_osx/include",
+					darwin_osx/include,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_LDFLAGS = "-Wl,-no_compact_unwind";
